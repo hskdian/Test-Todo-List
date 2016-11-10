@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B71EB0F1DD0504D00F18312 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B71EB0E1DD0504D00F18312 /* ItemTableViewCell.swift */; };
+		1B71EB111DD051A100F18312 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B71EB101DD051A100F18312 /* Item.swift */; };
+		1B71EB131DD052AF00F18312 /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B71EB121DD052AF00F18312 /* ItemTableViewController.swift */; };
 		1B920F861DC7BADF002EFE3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B920F851DC7BADF002EFE3C /* AppDelegate.swift */; };
 		1B920F881DC7BADF002EFE3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B920F871DC7BADF002EFE3C /* ViewController.swift */; };
 		1B920F8B1DC7BADF002EFE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B920F891DC7BADF002EFE3C /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B71EB0E1DD0504D00F18312 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		1B71EB101DD051A100F18312 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1B71EB121DD052AF00F18312 /* ItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
 		1B920F821DC7BADF002EFE3C /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B920F851DC7BADF002EFE3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B920F871DC7BADF002EFE3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 				1B920F851DC7BADF002EFE3C /* AppDelegate.swift */,
 				1B920F871DC7BADF002EFE3C /* ViewController.swift */,
 				1B920F891DC7BADF002EFE3C /* Main.storyboard */,
+				1B71EB101DD051A100F18312 /* Item.swift */,
+				1B71EB121DD052AF00F18312 /* ItemTableViewController.swift */,
+				1B71EB0E1DD0504D00F18312 /* ItemTableViewCell.swift */,
 				1B920F8C1DC7BADF002EFE3C /* Assets.xcassets */,
 				1B920F8E1DC7BADF002EFE3C /* LaunchScreen.storyboard */,
 				1B920F911DC7BADF002EFE3C /* Info.plist */,
@@ -188,7 +197,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				TargetAttributes = {
 					1B920F811DC7BADF002EFE3C = {
 						CreatedOnToolsVersion = 8.0;
@@ -258,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B71EB131DD052AF00F18312 /* ItemTableViewController.swift in Sources */,
+				1B71EB111DD051A100F18312 /* Item.swift in Sources */,
 				1B920F881DC7BADF002EFE3C /* ViewController.swift in Sources */,
+				1B71EB0F1DD0504D00F18312 /* ItemTableViewCell.swift in Sources */,
 				1B920F861DC7BADF002EFE3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +344,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -382,6 +395,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -504,6 +518,7 @@
 				1B920FAC1DC7BAE0002EFE3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B920FAD1DC7BAE0002EFE3C /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +527,7 @@
 				1B920FAF1DC7BAE0002EFE3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B920FB01DC7BAE0002EFE3C /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +536,7 @@
 				1B920FB21DC7BAE0002EFE3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
